@@ -40,7 +40,7 @@ SEEN_SIGNATURES = set()
 START_TIME = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(minutes=2)
 
 # =================================================================
-# Helpers
+# Helper
 # =================================================================
 def sys_log(msg, color=Fore.WHITE):
     ts = datetime.datetime.now().strftime("%H:%M:%S")
